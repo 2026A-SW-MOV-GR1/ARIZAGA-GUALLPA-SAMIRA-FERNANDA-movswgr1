@@ -1,0 +1,10 @@
+### Prompts
+
+**Prompt 1: Para la evolución y el renderizado a bajo nivel**
+> **Actúa como un Arquitecto de Software Principal.** Necesito una explicación técnica sobre la evolución del desarrollo móvil enfocada estrictamente en cómo cada paradigma renderiza los píxeles en la pantalla y maneja la memoria. Explica y compara: 1) Desarrollo Nativo Puro (Swift/Kotlin), 2) WebViews (Ionic/Cordova), 3) Paradigmas basados en un "Bridge" asíncrono (React Native clásico) y 4) Motores de renderizado propio (Flutter/Skia/Impeller). Para cada uno, detalla sus principales cuellos de botella a nivel de CPU/GPU cuando se enfrentan a animaciones de 60 FPS y listas infinitas de datos.
+
+**Prompt 2: Para los Casos de Estudio (Instagram y Google Maps)**
+> **Actúa como un Ingeniero de Rendimiento Móvil.** Realiza un análisis crítico de las decisiones arquitectónicas detrás de la app de Instagram (uso parcial de React Native) y la app de Google Maps (uso intensivo de C++ nativo y APIs gráficas). Responde a lo siguiente fundamentando con ingeniería: ¿Por qué el "bridge" de React Native es un riesgo para el rendimiento en feeds de video infinito y cómo lo mitiga Meta? Por otro lado, ¿por qué Google Maps no podría estar construido íntegramente en Flutter o React Native y requiere acceso directo a OpenGL/Metal y cálculos vectoriales en C++?
+
+**Prompt 3: Para el futuro (Foldables, AR y Veredicto Nativo)**
+> **Actúa como un Líder Técnico de Innovación.** Evalúa la viabilidad técnica de React Native, Flutter y desarrollo Nativo Puro frente a dos paradigmas emergentes: pantallas plegables (Foldables) y Realidad Aumentada interactiva (AR). Explica cómo gestiona cada tecnología el ciclo de vida de la aplicación y la retención de estado al redimensionar una pantalla en milisegundos. Luego, explica por qué las tecnologías cross-platform dependen de motores como Unity o módulos nativos para la AR. Finalmente, define técnicamente qué es un aplicativo nativo y cómo se clasifica (imperativo vs. declarativo).
